@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "v4.0.4",
+  "iOS" : [
+    {
+      "name" : "Amplitude",
+      "hash" : "f184dc8f908721b34c24b096d3cafabac0fe43ef8530848cb8e941c8836ee409"
+    }
+  ]
+}

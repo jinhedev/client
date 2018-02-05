@@ -8,12 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		C58091C32028BEC500BD7438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58091C22028BEC500BD7438 /* AppDelegate.swift */; };
-		C58091C52028BEC500BD7438 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58091C42028BEC500BD7438 /* ViewController.swift */; };
 		C58091C82028BEC500BD7438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58091C62028BEC500BD7438 /* Main.storyboard */; };
 		C58091CA2028BEC500BD7438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58091C92028BEC500BD7438 /* Assets.xcassets */; };
 		C58091CD2028BEC500BD7438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58091CB2028BEC500BD7438 /* LaunchScreen.storyboard */; };
 		C58091D82028BEC500BD7438 /* clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58091D72028BEC500BD7438 /* clientTests.swift */; };
 		C58091E32028BEC500BD7438 /* clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58091E22028BEC500BD7438 /* clientUITests.swift */; };
+		C58091F12028BF8600BD7438 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = C58091F02028BF8600BD7438 /* Cartfile */; };
+		C58091F42028BFBE00BD7438 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58091F32028BFBE00BD7438 /* KeychainPasswordItem.swift */; };
+		C58091F82028BFCA00BD7438 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58091F62028BFCA00BD7438 /* RealmManager.swift */; };
+		C58091F92028BFCA00BD7438 /* WebServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58091F72028BFCA00BD7438 /* WebServicesManager.swift */; };
+		C58091FE2028BFEC00BD7438 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58091FB2028BFEC00BD7438 /* Constants.swift */; };
+		C58091FF2028BFEC00BD7438 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58091FC2028BFEC00BD7438 /* Configs.swift */; };
+		C58092002028BFEC00BD7438 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58091FD2028BFEC00BD7438 /* Color.swift */; };
+		C58092072028C0B100BD7438 /* UICollectionView+IndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58092032028C0B100BD7438 /* UICollectionView+IndexPath.swift */; };
+		C58092082028C0B100BD7438 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58092042028C0B100BD7438 /* UIColor.swift */; };
+		C58092092028C0B100BD7438 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58092052028C0B100BD7438 /* URL.swift */; };
+		C580920A2028C0B100BD7438 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58092062028C0B100BD7438 /* UIImageView.swift */; };
+		C58092122028C0E800BD7438 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C580920C2028C0E800BD7438 /* BaseViewController.swift */; };
+		C58092132028C0E800BD7438 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C580920D2028C0E800BD7438 /* WebViewController.swift */; };
+		C58092142028C0E800BD7438 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C580920E2028C0E800BD7438 /* BaseNavigationController.swift */; };
+		C58092152028C0E800BD7438 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C580920F2028C0E800BD7438 /* BaseTabBarController.swift */; };
+		C58092162028C0E800BD7438 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58092102028C0E800BD7438 /* BaseCollectionViewCell.swift */; };
+		C58092172028C0E800BD7438 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58092112028C0E800BD7438 /* BaseTableViewCell.swift */; };
+		C580921C2028D32800BD7438 /* Master.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C580921B2028D32800BD7438 /* Master.storyboard */; };
+		C58092222028D3FA00BD7438 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C580921D2028D3FA00BD7438 /* Alamofire.framework */; };
+		C58092232028D3FA00BD7438 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C580921E2028D3FA00BD7438 /* Realm.framework */; };
+		C58092242028D3FA00BD7438 /* Amplitude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C580921F2028D3FA00BD7438 /* Amplitude.framework */; };
+		C58092252028D3FA00BD7438 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58092202028D3FA00BD7438 /* Reachability.framework */; };
+		C58092262028D3FA00BD7438 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58092212028D3FA00BD7438 /* RealmSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +58,6 @@
 /* Begin PBXFileReference section */
 		C58091BF2028BEC500BD7438 /* client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = client.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58091C22028BEC500BD7438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C58091C42028BEC500BD7438 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C58091C72028BEC500BD7438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C58091C92028BEC500BD7438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C58091CC2028BEC500BD7438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +68,30 @@
 		C58091DE2028BEC500BD7438 /* clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58091E22028BEC500BD7438 /* clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clientUITests.swift; sourceTree = "<group>"; };
 		C58091E42028BEC500BD7438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58091F02028BF8600BD7438 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		C58091F32028BFBE00BD7438 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		C58091F62028BFCA00BD7438 /* RealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		C58091F72028BFCA00BD7438 /* WebServicesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServicesManager.swift; sourceTree = "<group>"; };
+		C58091FB2028BFEC00BD7438 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C58091FC2028BFEC00BD7438 /* Configs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
+		C58091FD2028BFEC00BD7438 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C58092012028C03000BD7438 /* client.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = client.entitlements; sourceTree = "<group>"; };
+		C58092032028C0B100BD7438 /* UICollectionView+IndexPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+IndexPath.swift"; sourceTree = "<group>"; };
+		C58092042028C0B100BD7438 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		C58092052028C0B100BD7438 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		C58092062028C0B100BD7438 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		C580920C2028C0E800BD7438 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C580920D2028C0E800BD7438 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		C580920E2028C0E800BD7438 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		C580920F2028C0E800BD7438 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		C58092102028C0E800BD7438 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		C58092112028C0E800BD7438 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		C580921B2028D32800BD7438 /* Master.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Master.storyboard; sourceTree = "<group>"; };
+		C580921D2028D3FA00BD7438 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		C580921E2028D3FA00BD7438 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		C580921F2028D3FA00BD7438 /* Amplitude.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Amplitude.framework; path = Carthage/Build/iOS/Amplitude.framework; sourceTree = "<group>"; };
+		C58092202028D3FA00BD7438 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
+		C58092212028D3FA00BD7438 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +99,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C58092232028D3FA00BD7438 /* Realm.framework in Frameworks */,
+				C58092262028D3FA00BD7438 /* RealmSwift.framework in Frameworks */,
+				C58092222028D3FA00BD7438 /* Alamofire.framework in Frameworks */,
+				C58092242028D3FA00BD7438 /* Amplitude.framework in Frameworks */,
+				C58092252028D3FA00BD7438 /* Reachability.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +127,20 @@
 		C58091B62028BEC500BD7438 = {
 			isa = PBXGroup;
 			children = (
+				C580921D2028D3FA00BD7438 /* Alamofire.framework */,
+				C580921F2028D3FA00BD7438 /* Amplitude.framework */,
+				C58092202028D3FA00BD7438 /* Reachability.framework */,
+				C580921E2028D3FA00BD7438 /* Realm.framework */,
+				C58092212028D3FA00BD7438 /* RealmSwift.framework */,
+				C58091F02028BF8600BD7438 /* Cartfile */,
 				C58091C12028BEC500BD7438 /* client */,
 				C58091D62028BEC500BD7438 /* clientTests */,
 				C58091E12028BEC500BD7438 /* clientUITests */,
 				C58091C02028BEC500BD7438 /* Products */,
+				C58091F22028BFBE00BD7438 /* Vendor */,
+				C58091F52028BFCA00BD7438 /* Lib */,
+				C58091FA2028BFEC00BD7438 /* Configs */,
+				C58092022028C0B100BD7438 /* Helpers */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +157,9 @@
 		C58091C12028BEC500BD7438 /* client */ = {
 			isa = PBXGroup;
 			children = (
-				C58091C22028BEC500BD7438 /* AppDelegate.swift */,
-				C58091C42028BEC500BD7438 /* ViewController.swift */,
-				C58091C62028BEC500BD7438 /* Main.storyboard */,
-				C58091C92028BEC500BD7438 /* Assets.xcassets */,
-				C58091CB2028BEC500BD7438 /* LaunchScreen.storyboard */,
-				C58091CE2028BEC500BD7438 /* Info.plist */,
+				C580921A2028D2B400BD7438 /* Master&Detail */,
+				C580920B2028C0D900BD7438 /* App */,
+				C58092012028C03000BD7438 /* client.entitlements */,
 			);
 			path = client;
 			sourceTree = "<group>";
@@ -123,6 +180,70 @@
 				C58091E42028BEC500BD7438 /* Info.plist */,
 			);
 			path = clientUITests;
+			sourceTree = "<group>";
+		};
+		C58091F22028BFBE00BD7438 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				C58091F32028BFBE00BD7438 /* KeychainPasswordItem.swift */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		C58091F52028BFCA00BD7438 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C58091F62028BFCA00BD7438 /* RealmManager.swift */,
+				C58091F72028BFCA00BD7438 /* WebServicesManager.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		C58091FA2028BFEC00BD7438 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				C58091FB2028BFEC00BD7438 /* Constants.swift */,
+				C58091FC2028BFEC00BD7438 /* Configs.swift */,
+				C58091FD2028BFEC00BD7438 /* Color.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		C58092022028C0B100BD7438 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C58092032028C0B100BD7438 /* UICollectionView+IndexPath.swift */,
+				C58092042028C0B100BD7438 /* UIColor.swift */,
+				C58092052028C0B100BD7438 /* URL.swift */,
+				C58092062028C0B100BD7438 /* UIImageView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C580920B2028C0D900BD7438 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C58092102028C0E800BD7438 /* BaseCollectionViewCell.swift */,
+				C580920E2028C0E800BD7438 /* BaseNavigationController.swift */,
+				C580920F2028C0E800BD7438 /* BaseTabBarController.swift */,
+				C58091C22028BEC500BD7438 /* AppDelegate.swift */,
+				C58092112028C0E800BD7438 /* BaseTableViewCell.swift */,
+				C580920C2028C0E800BD7438 /* BaseViewController.swift */,
+				C58091CE2028BEC500BD7438 /* Info.plist */,
+				C58091C92028BEC500BD7438 /* Assets.xcassets */,
+				C580920D2028C0E800BD7438 /* WebViewController.swift */,
+				C58091CB2028BEC500BD7438 /* LaunchScreen.storyboard */,
+				C58091C62028BEC500BD7438 /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C580921A2028D2B400BD7438 /* Master&Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C580921B2028D32800BD7438 /* Master.storyboard */,
+			);
+			path = "Master&Detail";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +315,17 @@
 					C58091BE2028BEC500BD7438 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					C58091D22028BEC500BD7438 = {
 						CreatedOnToolsVersion = 9.2;
@@ -234,6 +366,8 @@
 			files = (
 				C58091CD2028BEC500BD7438 /* LaunchScreen.storyboard in Resources */,
 				C58091CA2028BEC500BD7438 /* Assets.xcassets in Resources */,
+				C58091F12028BF8600BD7438 /* Cartfile in Resources */,
+				C580921C2028D32800BD7438 /* Master.storyboard in Resources */,
 				C58091C82028BEC500BD7438 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +393,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C58091C52028BEC500BD7438 /* ViewController.swift in Sources */,
+				C58092152028C0E800BD7438 /* BaseTabBarController.swift in Sources */,
+				C58092122028C0E800BD7438 /* BaseViewController.swift in Sources */,
+				C58091F82028BFCA00BD7438 /* RealmManager.swift in Sources */,
+				C58092172028C0E800BD7438 /* BaseTableViewCell.swift in Sources */,
+				C58091F92028BFCA00BD7438 /* WebServicesManager.swift in Sources */,
+				C58092092028C0B100BD7438 /* URL.swift in Sources */,
+				C580920A2028C0B100BD7438 /* UIImageView.swift in Sources */,
+				C58092162028C0E800BD7438 /* BaseCollectionViewCell.swift in Sources */,
 				C58091C32028BEC500BD7438 /* AppDelegate.swift in Sources */,
+				C58092072028C0B100BD7438 /* UICollectionView+IndexPath.swift in Sources */,
+				C58092142028C0E800BD7438 /* BaseNavigationController.swift in Sources */,
+				C58091F42028BFBE00BD7438 /* KeychainPasswordItem.swift in Sources */,
+				C58092002028BFEC00BD7438 /* Color.swift in Sources */,
+				C58091FE2028BFEC00BD7438 /* Constants.swift in Sources */,
+				C58092132028C0E800BD7438 /* WebViewController.swift in Sources */,
+				C58091FF2028BFEC00BD7438 /* Configs.swift in Sources */,
+				C58092082028C0B100BD7438 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,9 +575,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = client/client.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P35AQV2SNV;
-				INFOPLIST_FILE = client/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/client/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odinternational.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,9 +595,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = client/client.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P35AQV2SNV;
-				INFOPLIST_FILE = client/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/client/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odinternational.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
