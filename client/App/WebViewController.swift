@@ -18,7 +18,7 @@ class WebViewController: BaseViewController, WKUIDelegate {
             self.logNewsContentType()
         }
     }
-    var constellation: Constellation?
+    var post: Post?
     static let storyboard_id = String(describing: WebViewController.self)
     @IBOutlet weak var webView: WKWebView!
 

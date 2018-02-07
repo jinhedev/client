@@ -36,6 +36,26 @@
 		C58092242028D3FA00BD7438 /* Amplitude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C580921F2028D3FA00BD7438 /* Amplitude.framework */; };
 		C58092252028D3FA00BD7438 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58092202028D3FA00BD7438 /* Reachability.framework */; };
 		C58092262028D3FA00BD7438 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58092212028D3FA00BD7438 /* RealmSwift.framework */; };
+		C58092282028D47000BD7438 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58092272028D47000BD7438 /* MasterViewController.swift */; };
+		C580922A2028D4B500BD7438 /* MasterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58092292028D4B500BD7438 /* MasterCell.swift */; };
+		C580922C2028D4F700BD7438 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C580922B2028D4F700BD7438 /* DetailsViewController.swift */; };
+		C58092302028D52D00BD7438 /* ContainerViewOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C580922D2028D52C00BD7438 /* ContainerViewOneController.swift */; };
+		C58092312028D52D00BD7438 /* ContainerViewTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C580922E2028D52C00BD7438 /* ContainerViewTwoController.swift */; };
+		C58092322028D52D00BD7438 /* ContainerViewThreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C580922F2028D52D00BD7438 /* ContainerViewThreeController.swift */; };
+		C58092342028D72700BD7438 /* ContainerDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58092332028D72700BD7438 /* ContainerDetailsCell.swift */; };
+		C58092362028D7FE00BD7438 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58092352028D7FE00BD7438 /* Post.swift */; };
+		C58092382028D99000BD7438 /* Master.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58092372028D99000BD7438 /* Master.xcassets */; };
+		C58092392028D9CB00BD7438 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C580921D2028D3FA00BD7438 /* Alamofire.framework */; };
+		C580923A2028D9CB00BD7438 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C580921D2028D3FA00BD7438 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C580923B2028D9CB00BD7438 /* Amplitude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C580921F2028D3FA00BD7438 /* Amplitude.framework */; };
+		C580923C2028D9CB00BD7438 /* Amplitude.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C580921F2028D3FA00BD7438 /* Amplitude.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C580923D2028D9CB00BD7438 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58092202028D3FA00BD7438 /* Reachability.framework */; };
+		C580923E2028D9CB00BD7438 /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C58092202028D3FA00BD7438 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C580923F2028D9CB00BD7438 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C580921E2028D3FA00BD7438 /* Realm.framework */; };
+		C58092402028D9CB00BD7438 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C580921E2028D3FA00BD7438 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C58092412028D9CB00BD7438 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58092212028D3FA00BD7438 /* RealmSwift.framework */; };
+		C58092422028D9CB00BD7438 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C58092212028D3FA00BD7438 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C58092452028DA4A00BD7438 /* ContainerDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C58092442028DA4A00BD7438 /* ContainerDetailsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +74,24 @@
 			remoteInfo = client;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C58092432028D9CB00BD7438 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C58092402028D9CB00BD7438 /* Realm.framework in Embed Frameworks */,
+				C58092422028D9CB00BD7438 /* RealmSwift.framework in Embed Frameworks */,
+				C580923C2028D9CB00BD7438 /* Amplitude.framework in Embed Frameworks */,
+				C580923E2028D9CB00BD7438 /* Reachability.framework in Embed Frameworks */,
+				C580923A2028D9CB00BD7438 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C58091BF2028BEC500BD7438 /* client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = client.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +130,16 @@
 		C580921F2028D3FA00BD7438 /* Amplitude.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Amplitude.framework; path = Carthage/Build/iOS/Amplitude.framework; sourceTree = "<group>"; };
 		C58092202028D3FA00BD7438 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
 		C58092212028D3FA00BD7438 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		C58092272028D47000BD7438 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C58092292028D4B500BD7438 /* MasterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterCell.swift; sourceTree = "<group>"; };
+		C580922B2028D4F700BD7438 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		C580922D2028D52C00BD7438 /* ContainerViewOneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewOneController.swift; sourceTree = "<group>"; };
+		C580922E2028D52C00BD7438 /* ContainerViewTwoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewTwoController.swift; sourceTree = "<group>"; };
+		C580922F2028D52D00BD7438 /* ContainerViewThreeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewThreeController.swift; sourceTree = "<group>"; };
+		C58092332028D72700BD7438 /* ContainerDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerDetailsCell.swift; sourceTree = "<group>"; };
+		C58092352028D7FE00BD7438 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		C58092372028D99000BD7438 /* Master.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Master.xcassets; sourceTree = "<group>"; };
+		C58092442028DA4A00BD7438 /* ContainerDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContainerDetailsCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +147,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C580923F2028D9CB00BD7438 /* Realm.framework in Frameworks */,
 				C58092232028D3FA00BD7438 /* Realm.framework in Frameworks */,
+				C58092392028D9CB00BD7438 /* Alamofire.framework in Frameworks */,
+				C580923B2028D9CB00BD7438 /* Amplitude.framework in Frameworks */,
+				C580923D2028D9CB00BD7438 /* Reachability.framework in Frameworks */,
 				C58092262028D3FA00BD7438 /* RealmSwift.framework in Frameworks */,
+				C58092412028D9CB00BD7438 /* RealmSwift.framework in Frameworks */,
 				C58092222028D3FA00BD7438 /* Alamofire.framework in Frameworks */,
 				C58092242028D3FA00BD7438 /* Amplitude.framework in Frameworks */,
 				C58092252028D3FA00BD7438 /* Reachability.framework in Frameworks */,
@@ -241,7 +294,17 @@
 		C580921A2028D2B400BD7438 /* Master&Detail */ = {
 			isa = PBXGroup;
 			children = (
+				C580922D2028D52C00BD7438 /* ContainerViewOneController.swift */,
+				C580922F2028D52D00BD7438 /* ContainerViewThreeController.swift */,
+				C580922E2028D52C00BD7438 /* ContainerViewTwoController.swift */,
+				C580922B2028D4F700BD7438 /* DetailsViewController.swift */,
 				C580921B2028D32800BD7438 /* Master.storyboard */,
+				C58092442028DA4A00BD7438 /* ContainerDetailsCell.xib */,
+				C58092292028D4B500BD7438 /* MasterCell.swift */,
+				C58092272028D47000BD7438 /* MasterViewController.swift */,
+				C58092332028D72700BD7438 /* ContainerDetailsCell.swift */,
+				C58092352028D7FE00BD7438 /* Post.swift */,
+				C58092372028D99000BD7438 /* Master.xcassets */,
 			);
 			path = "Master&Detail";
 			sourceTree = "<group>";
@@ -256,6 +319,7 @@
 				C58091BB2028BEC500BD7438 /* Sources */,
 				C58091BC2028BEC500BD7438 /* Frameworks */,
 				C58091BD2028BEC500BD7438 /* Resources */,
+				C58092432028D9CB00BD7438 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -365,7 +429,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C58091CD2028BEC500BD7438 /* LaunchScreen.storyboard in Resources */,
+				C58092382028D99000BD7438 /* Master.xcassets in Resources */,
 				C58091CA2028BEC500BD7438 /* Assets.xcassets in Resources */,
+				C58092452028DA4A00BD7438 /* ContainerDetailsCell.xib in Resources */,
 				C58091F12028BF8600BD7438 /* Cartfile in Resources */,
 				C580921C2028D32800BD7438 /* Master.storyboard in Resources */,
 				C58091C82028BEC500BD7438 /* Main.storyboard in Resources */,
@@ -398,7 +464,11 @@
 				C58091F82028BFCA00BD7438 /* RealmManager.swift in Sources */,
 				C58092172028C0E800BD7438 /* BaseTableViewCell.swift in Sources */,
 				C58091F92028BFCA00BD7438 /* WebServicesManager.swift in Sources */,
+				C580922A2028D4B500BD7438 /* MasterCell.swift in Sources */,
+				C58092342028D72700BD7438 /* ContainerDetailsCell.swift in Sources */,
 				C58092092028C0B100BD7438 /* URL.swift in Sources */,
+				C58092302028D52D00BD7438 /* ContainerViewOneController.swift in Sources */,
+				C58092362028D7FE00BD7438 /* Post.swift in Sources */,
 				C580920A2028C0B100BD7438 /* UIImageView.swift in Sources */,
 				C58092162028C0E800BD7438 /* BaseCollectionViewCell.swift in Sources */,
 				C58091C32028BEC500BD7438 /* AppDelegate.swift in Sources */,
@@ -407,9 +477,13 @@
 				C58091F42028BFBE00BD7438 /* KeychainPasswordItem.swift in Sources */,
 				C58092002028BFEC00BD7438 /* Color.swift in Sources */,
 				C58091FE2028BFEC00BD7438 /* Constants.swift in Sources */,
+				C58092322028D52D00BD7438 /* ContainerViewThreeController.swift in Sources */,
+				C58092282028D47000BD7438 /* MasterViewController.swift in Sources */,
 				C58092132028C0E800BD7438 /* WebViewController.swift in Sources */,
+				C58092312028D52D00BD7438 /* ContainerViewTwoController.swift in Sources */,
 				C58091FF2028BFEC00BD7438 /* Configs.swift in Sources */,
 				C58092082028C0B100BD7438 /* UIColor.swift in Sources */,
+				C580922C2028D4F700BD7438 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
